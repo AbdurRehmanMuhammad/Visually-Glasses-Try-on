@@ -1,12 +1,14 @@
 # Visually-Glasses-Try-on
 This Python script utilizes OpenCV to create a real-time glasses try-on application. It detects faces in a live video stream from a webcam and overlays various glasses images onto the detected faces. The script leverages a pre-trained face cascade classifier and facial landmarks to accurately position the glasses on the faces.
-Requirements:
-Python 3.x
-OpenCV
-NumPy
-Clone the repository or download the script.
+# Requirements:
+```
+  Python 3.x
+  OpenCV
+  NumPy
+```
+# Clone the repository or download the script.
 Install the required dependencies using pip:
-pip install opencv-python numpy
+``` pip install opencv-python numpy ```
 
 Ensure that you have glasses images with alpha channels (transparency) available.
 Specify the file paths for the glasses images in the glasses_images dictionary in the code.
